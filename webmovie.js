@@ -42,7 +42,7 @@ function handle_rating_submit(event, movie_title) {
 
 let get_movie = () => {
   let movie_name = movie_ip.value;
-  let url = `http://www.omdbapi.com/?t=${movie_name}&apikey=${key}`;
+  let url = `https://www.omdbapi.com/?t=${movie_name}&apikey=${key}`;
   if (movie_name.length <= 0) {
     result.innerHTML = `<h3>Enter a movie name</h3>`;
   } else {
