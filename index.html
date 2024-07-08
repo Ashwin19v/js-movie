@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies adaa</title>
+    <link rel="stylesheet" href="webmovie.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="header">
+      <div class="head">
+        <i id="icn" class="fa-solid fa-video"></i
+        ><span class="navspan">MovFlix</span>
+      </div>
+
+      <ul class="navbar">
+        <li><a>HOME</a></li>
+        <li><a href="#wb">WEBSERIES</a></li>
+        <li><a href="#mv">MOVIES</a></li>
+        <li><a>ABOUT US</a></li>
+        <li><a>FEEDBACK</a></li>
+        <li><i class="fa-solid fa-circle-half-stroke"></i> <a>THEME</a></li>
+      </ul>
+
+      <button class="navbtn">SIGN IN</button>
+    </nav>
+
+    <div class="info">
+      <section class="search">
+        <div class="box">
+          <input
+            type="text"
+            placeholder="Search your movie"
+            id="mip"
+            value="dark knight"
+          />
+          <button id="srh">Search</button>
+        </div>
+      </section>
+      <div class="movie" id="movie"></div>
+      <div id="rate"></div>
+    </div>
+
+    <script src="sc.js"></script>
+    <script src="webmovie.js"></script>
+  </body>
+</html>
